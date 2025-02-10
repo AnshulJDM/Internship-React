@@ -1,0 +1,14 @@
+.aboutus{
+    display: flex; 
+}
+.aboutus p{
+    background-color: aquamarine;
+    width:50%;
+    height: 300px;
+}
+.aboutus h4{
+    background-color:royalblue;
+    width:50%;
+    height: 300px;
+    color: white;
+}
