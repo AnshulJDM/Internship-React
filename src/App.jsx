@@ -15,6 +15,8 @@ import { ArrayDemo6 } from './components/ArrayDemo6'
 // import {UseStateDemo} from './components/UseStateDemo'
 import {UseStateDemo2} from './components/UseStateDemo2'
 import InputDemo from './components/InputDemo'
+import InputDemo1 from './components/InputDemo1'
+import InputDemo2 from './components/InputDemo2'
 
 
 
@@ -29,6 +31,8 @@ function App() {
       {/* <UseStateDemo></UseStateDemo> */}
       {/* <UseStateDemo2></UseStateDemo2> */}
       <InputDemo></InputDemo>
+      <InputDemo1></InputDemo1>
+      <InputDemo2></InputDemo2>
       {/* <ArratDemo1></ArratDemo1>
       <ArrayDemo2></ArrayDemo2>
       <ArrayDemo3></ArrayDemo3> */}
