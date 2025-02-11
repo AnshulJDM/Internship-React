@@ -10,12 +10,10 @@ const Header = () => {
       </div>
       <div class="link">
         <ul>
-          <li>HOME</li>
-          <li>HOME</li>
-          <li>HOME</li>
-           <li>
-            <a href="./Aboutus.jsx">AboutUs</a>
-           </li>
+          <li><a href="HOME">Home</a></li>
+          <li><a href="About us">Movies</a></li>
+          <li><a href="Contact">Sports</a></li>
+          <li><a href="./Aboutus.jsx">AboutUs</a></li>
         </ul>
       </div>
     </div>
