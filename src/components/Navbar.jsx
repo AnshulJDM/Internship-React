@@ -9,7 +9,7 @@ export const Navbar = () => {
           Navbar
         </a> */}
         <Link class="navbar-brand" to="/">
-             Navbar
+          Navbar
         </Link>
         <button
           class="navbar-toggler"
@@ -27,14 +27,30 @@ export const Navbar = () => {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link class="nav-link" to="/home">
-                Home 
+                Home
               </Link>
             </li>
             <li class="nav-item">
-            <Link class="nav-link" to="/movies">
+              <Link class="nav-link" to="/movies">
                 movies
               </Link>
             </li>
+            <li><Link class="nav-link" to="/formdemo1">
+              Form
+            </Link></li>
+
+            <li><Link class="nav-link" to="/formdemo2">
+              Form2
+            </Link></li>
+
+            <li><Link class="nav-link" to="/formdemo3">
+              Form3
+            </Link></li>
+
+            <li><Link class="nav-link" to="/formdemo4">
+              Form4
+            </Link></li>
+
           </ul>
         </div>
       </nav>
