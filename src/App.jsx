@@ -12,6 +12,7 @@ import FormDemo1 from './components/Form/FormDemo1'
 import FormDemo2 from './components/Form/FormDemo2'
 import FormDemo3 from './components/Form/FormDemo3'
 import FormDemo4 from './components/Form/FormDemo4'
+import { FormDemo5 } from './components/Form/FormDemo5'
 
 
 
@@ -32,6 +33,7 @@ function App() {
       <Route path='/formdemo2' element={<FormDemo2/>}></Route>
       <Route path='/formdemo3' element={<FormDemo3/>}></Route>
       <Route path='/formdemo4' element={<FormDemo4/>}></Route>
+      <Route path='/formdemo5' element={<FormDemo5/>}></Route>
       <Route path="/*" element={<HotstarError/>}></Route>
     </Routes>
     </div>

@@ -1,29 +1,47 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 
- export const FormDemo5 = () => {
-    const {register,handleSubmit} = useForm()
+export const FormDemo5 = () => {
+    const { register, handleSubmit } = useForm()
 
-    const submitHandler =(data)=>{
+    const submitHandler = (data) => {
         console.log(data)
     }
-  return (
-    <div>
-        <div>
-            <form onChange={handleSubmit(submitHandler)}> 
+    return (
+        <div style={{ textAlign: "center" }}>
+            <div>
+                <form onChange={handleSubmit(submitHandler)}>
                     <div>
                         <label>First Name</label>
-                        <input type="text" />
+                        <input type="text" placeholder='Enter your Firstname' required {...register}/>
                     </div>
                     <br />
                     <div>
                         <label>Last Name</label>
-                        <input type="text" />
+                        <input type="text" placeholder='Enter your lastname' required {...register}/>
                     </div>
-            </form>
+                    <br />
+                    <div>
+                        <label>Email</label>
+                        <input type="email" placeholder='Enter your Email' required {...register}/>
+                    </div>
+                    <br />
+                    <div>
+                        <label>Password</label>
+                        <input type="password" placeholder='Enter Password' required {...register}/>
+                    </div>
+                    <br />
+                    <div>
+                        <label>Contact  No.</label>
+                        <input type="tel" placeholder='Enter you Mobile No.' required {...register}/>
+                    </div>
+                    <br />
+                        <button>Submit</button>
+
+                </form>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 
