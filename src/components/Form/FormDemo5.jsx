@@ -37,6 +37,7 @@ export const FormDemo5 = () => {
                     </div>
                     <br />
                         <button>Submit</button>
+                        <button>Reset</button>
 
                 </form>
             </div>
