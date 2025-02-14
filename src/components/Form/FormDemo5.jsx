@@ -38,6 +38,11 @@ export const FormDemo5 = () => {
                         <input type="tel" placeholder='Enter you Mobile No.' required {...register}/>
                     </div>
                     <br />
+                    <div>
+                        <label>Date</label>
+                        <input type="date" required {...register}/>
+                    </div>
+                    <br />
                         <button>Submit</button>
                         <button>Reset</button>
 
