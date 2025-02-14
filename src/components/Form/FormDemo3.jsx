@@ -12,7 +12,7 @@ export default function FormDemo3() {
         <form onSubmit={handleSubmit(submitHandler)}>
             <div>
                 <label>First Name : </label>
-                <input type="text"  placeholder='Enter Name'/>
+                <input type="text"  placeholder='Enter Name' {...register}/>
             </div>
         </form>
       
