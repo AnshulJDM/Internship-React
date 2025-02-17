@@ -17,6 +17,7 @@ import { LoginForm } from './components/Form/LoginForm'
 import FormDemo7 from './components/Form/FormDemo7'
 // import LoginForm1 from './components/Form/LoginForm1'
 import { Signupform } from './components/Form/Signupform'
+import { ApiDemo1 } from './components/API/ApiDemo1'
 // import { FormDemo6 } from './components/Form/FormDemo6'
 
 
@@ -43,6 +44,7 @@ function App() {
       <Route path='/loginform' element={<LoginForm/>}></Route>
       {/* <Route path='/loginform1' element={<LoginForm1/>}></Route> */}
       <Route path='signup' element={<Signupform/>}></Route>
+      <Route path='apidemo1' element={<ApiDemo1/>}></Route>
       <Route path='/formdemo7' element={<FormDemo7/>}></Route>
       <Route path="/*" element={<HotstarError/>}></Route>
     </Routes>
